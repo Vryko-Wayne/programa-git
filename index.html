@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Mi primera Pagina web</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+<body>
+    <div id="content">
+        <div id="header">
+            <div id="header_title">
+                aqui va el titulo
+            </div>
+            <div id="header_image">
+                <img src="img/image.png">
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contactenos.html">Contactenos</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="cuerpo">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>codigo</th>
+                        <th>nombre</th>
+                        <th>sueldo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>jose</td>
+                        <td>2500000</td>
+                    </tr>
+                </tbody>
+            </table><p></p>
+        <form name="frm1" method="post" action="">
+           <div id="linea">
+            <label>documento:</label>
+            <input type="number" name ="t1">
+           </div><p></p>
+           <div id="linea">
+            <label>Nombre:</label>
+            <input type="text" name ="t2">
+           </div><p></p>
+           <div id="linea">
+            <label>ciudad:</label>
+            <select name="t3">
+               <option value="1">Ibague</option> 
+               <option value="2">Bogota</option>
+               <option value="3">cali</option>     
+            </select>
+           </div>
+
+           <div id="linea">
+            <label>fecha de nacimiento:</label>
+            <input type="date" name="t4">
+            </div>
+
+           </div>
+           <div id="linea">
+            <label>correo</label>
+            <input type="email" name="t5">
+           </div>
+           <div id="linea">
+            <label>color:</label>
+            <input type="color" name="t6">
+           </div>
+           <div id="linea"></div>
+           <div id="linea"></div>
+           <div id="linea"></div>
+           <div id="linea"></div><p></p>
+            <input type="submit" name="b1" value="enviar">
+        </form>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
